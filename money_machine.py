@@ -26,7 +26,8 @@ class MoneyMachine:
             self.profit += cost
             self.money_received = 0
             return True
-        else:
+        else:           
             print("Sorry that's not enough money. Money refunded.")
             self.money_received = 0
             return False
+            
